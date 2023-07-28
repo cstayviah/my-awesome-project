@@ -1,3 +1,54 @@
-h1{
-    color: aqua;
-}
+.entirety {
+    background-color: rgb(60, 156, 216);
+    display: inline-block;
+    width: 500px;
+    object-fit: cover;
+  }
+  h1 {
+    color: white;
+  }
+  h2 {
+    color: white;
+    font-size: 20px;
+  }
+  h3 {
+    color: white;
+    margin-top: -13px;
+    font-size: 17px;
+  }
+  h4 {
+    font-size: 40px;
+    color: white;
+  }
+  p {
+    color: whitesmoke;
+  }
+  .row {
+    color: white;
+  }
+  .partly {
+    font-size: 23px;
+    width: 700px;
+  }
+  #search-input {
+    position: fixed;
+    margin-left: 100px;
+  }
+  .feels {
+    margin-left: 165px;
+    margin-top: -10px;
+  }
+  button {
+    width: 100px;
+    height: 45px;
+    border-radius: 15px;
+    transition: all 200ms ease-in-out;
+    margin-right: 50px;
+  }
+  button:hover {
+    background-color: turquoise;
+  }
+  .search-input {
+    font-size: 500px;
+  }
+  

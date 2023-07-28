@@ -2,13 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my awesome project</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Clarinda's Weather App</title>
+    <link rel="stylesheet" href="src/styles.css"/>
 </head>
 <body>
-    <h1>
-        Hello Git!
+  <div class="entirety">
+  <form id="search-city>
+    <div class="row">
+          <div class="col">
+              <input
+              id="search-input"
+              type="text"
+              class="input-box"id="inputCity"
+              placeholder="Type a City"
+              />
+          </div>
+        <div class="col">
+            <button type="submit" id="search-button">Search</button>
+        </div>
+        <div class="col">
+            <button id="current-button">Current</button>
+        </div>
+    <h1 id="city-name">
+    Ghana
     </h1>
+    <h2>
+        Current Weather
+    </h2>
+    <h3>
+        <h3>
+           22:12 
+        </h3>
+        <h4>
+        <img width="60px" src="weather.jpg" alt="image here"/>
+               <div id="temperature-value"> 27°C </div>
+        </h4>
+        
+ <div class="row">
+                <div class="col">
+                <strong>Sun</strong></br>
+                🌞</br>
+                29°22°
+            </div>
+                <div class="col">
+                <strong>Mon</strong></br>
+            🔆</br>
+            27°20°
+        </div>
+                <div class="col">
+                <strong>Tues</strong></br>
+                🌨</br>
+                24°19°
+            </div>
+                <div class="col">
+                <strong>Wed</strong></br>
+                🌩</br>
+                26°20°
+            </div>
+                <div class="col">
+                <strong>Thurs</strong></br>
+                ⛅</br>
+                25°18°
+            </div>
+    </div>
+ </div>
+    </div>
+  </div>
+  <p>open-source code, by Clarinda Tayviah</p>
+  <script src="src/git.js"></script>
 </body>
 </html>
